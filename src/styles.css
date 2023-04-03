@@ -1,0 +1,323 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+   font-family: 'Bai Jamjuree', sans-serif;
+   font-size: 18px;
+   color: hsl(210, 10%, 33%);
+   text-align: center;
+}
+
+.bg-d-img,
+.bg-m-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.bg-m-img {
+    opacity: 0;
+}
+
+.logo {
+    width: 130px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 0 0 0;
+}
+
+.main-heading, 
+.sub-heading,
+.sub-sub-heading,
+.details-heading,
+.ios-download-btn,
+.mac-download-btn {
+    font-weight: 600;
+}
+
+.main-heading {
+    font-size: 48px;
+    padding-top: 50px;
+}
+
+.sub-heading {
+    font-size: 38px;
+}
+
+.sub-sub-heading,
+.details-heading {
+    font-size: 26px;
+    padding-top: 50px;
+}
+
+.details-heading {
+    padding-left: 100px;
+}
+
+.main-description {
+    color: hsl(201, 11%, 66%);
+    font-size: 22px;
+    width: 800px;
+}
+
+.brief-description {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    width: 780px;
+    padding-bottom: 20px;
+}
+
+.description {
+    color: hsl(201, 11%, 66%);
+    padding-left: 100px;
+    width: 500px;
+}
+
+.download-button {
+    display: flex;
+}
+
+.ios-download-btn,
+.mac-download-btn {
+    width: 230px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1.2px;
+    margin: 22px 5px 0 5px;
+}
+
+.ios-download-btn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 10px 10px hsla(171, 66%, 44%, 0.2);
+}
+
+.mac-download-btn {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 10px 10px hsla(233, 100%, 69%, 0.2);
+}
+
+#features {
+    display: flex;
+    justify-content:center;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.mac-img {
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.mac-img-s {
+    width: 100%;
+}
+
+.details {
+    flex: 1;
+}
+
+.description-2{
+    color: hsl(201, 11%, 66%);
+}
+
+.extra-features {
+    display: flex;
+    justify-content: center;
+    padding: 0 250px;
+}
+
+.extra-features-details {
+    width: 420px;
+    padding: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.company-logo {
+    padding: 100px 65px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 170px;
+    padding: 20px;
+    background-color: hsla(201, 11%, 66%, 0.1);
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-sub-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-s {
+    width: 50px;
+    height: auto;
+}
+
+.row {
+    padding-left: 150px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.footer-details {
+    padding-top: 15px;
+}
+
+.social-media {
+    flex: 1;
+}
+
+.social-icon {
+    padding: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 1028px) {
+    .bg-d-img {
+        opacity: 0;
+    }
+    
+    .bg-m-img {
+        opacity: 1;
+    }
+
+    .logo {
+        padding-top: 50px;
+    }
+
+    .container-fluid,
+    .main-description,
+    .brief-description,
+    .description {
+        width: 80vw;
+        height: auto;
+    }
+    
+    .container-fluid {
+        margin-bottom: 100px;
+    }
+    .main-description {
+        margin-bottom: 25px;
+    }
+
+    .download-button {
+        flex-direction: column;
+    }
+
+    .ios-download-btn,
+    .mac-download-btn {
+        width: 80vw;
+    }
+
+    .main-heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main-description {
+        font-size: 18px;
+    }
+
+    .sub-heading {
+        font-size: 34px;
+    }
+
+    #features {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .mac-img,
+    .devices-img {
+        width: 85vw;
+    }
+
+    .details-heading {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .description {
+        text-align: center;
+        padding-left: 0;
+        width: 80vw;
+    }
+
+    .extra-features {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0;
+    }
+
+    .company-logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .company-logo {
+        padding: 30px;
+    }
+
+    footer {
+        margin-top: 150px;
+        height: 500px;
+        padding: 50px;
+        background-color: hsla(201, 11%, 66%, 0.1);
+    }
+    
+
+    #footer-container,
+    .footer-sub-container {
+        flex-direction: column;
+    }
+    
+    .row {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .attribution { 
+        padding: 30px;
+    }
+}
