@@ -26,7 +26,6 @@ body {
 
 .logo {
     width: 130px;
-    padding-top: 100px;
 }
 
 .container-fluid {
@@ -77,6 +76,7 @@ body {
     font-size: 20px;
     width: 780px;
     padding-bottom: 80px;
+    padding-top: 20px;
 }
 
 .description {
@@ -108,7 +108,7 @@ body {
 }
 
 .ios-download-btn:hover {
-    background-color: hsla(171, 66%, 44%,0.5);
+    background-color: hsla(171, 66%, 44%, 0.5);
 }
 
 .mac-download-btn {
@@ -141,7 +141,7 @@ body {
 
 .details {
     flex: 1;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .description-2{
